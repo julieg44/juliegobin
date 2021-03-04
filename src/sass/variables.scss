@@ -1,0 +1,48 @@
+// variables SCSS
+
+$firstColor:#000;
+$secondColor: #ecd1d6;
+$thirdColor:#363535;
+$quatreColor:#91132b;
+$grey:#dad6d6;
+$blanc:#fff;
+
+
+$serif:'IBM Plex Serif', serif;
+$sansserif:'Montserrat', sans-serif;
+$IBM: 'IBM Plex Serif', serif;
+$Quattro: 'Quattrocento', serif;
+
+
+/// mediaqueries
+$breakpoints: (
+ tablette : 769px,
+ mobile : 570px);
+
+
+
+ @mixin tablette_ecran {
+   @media screen and (min-width : map-get($breakpoints, mobile)){
+     @content
+   }
+ };  
+
+
+@mixin ecran {
+ @media screen and (min-width : map-get($breakpoints, tablette)){
+   @content
+ }
+};
+
+@mixin tablette {
+ @media screen and (min-width : map-get($breakpoints, mobile))and(max-width : map-get($breakpoints, tablette )){
+   @content
+ }
+};
+
+@mixin mobile {
+  @media screen and (max-width : map-get($breakpoints, tablette )){
+    @content
+  }
+ }
+
