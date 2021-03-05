@@ -4,7 +4,7 @@
       <img id="photoJu" src="../assets/julie.jpg"/>
       <div>
       <h3 id="titreJu">Hello !!!</h3>
-      <p id="textJu">Je suis Julie, j'ai 38 ans et je vis à Nantes.<br/>
+      <p id="textJu">Je suis Julie !, j'ai 38 ans et je vis à Nantes.<br/>
       Qu'est ce que je fabrique sur une page web ? 
       Je m'explique : J'ai exercé dans diverses agences le métier de graphiste que j'affectionne beaucoup. <br/>
       Mais voilà… crise de la quarantaine approchant (sans doute), 
