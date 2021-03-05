@@ -13,7 +13,7 @@
             <div class="toile"><img src="../../assets/divers/toile1.jpg" /></div>
             <div class="toile"><img src="../../assets/divers/toile3.jpg" /></div>
             <div class="toile"><img src="../../assets/divers/toile2.jpg" /></div>
-            <div class="toile"><img src="../../assets/divers/halloween.jpg" /></div>
+            <!-- <div class="toile"><img src="../../assets/divers/halloween.jpg" /></div> -->
         </div>
         <Explicatif titre="Pratique peinture et… passion tête de mort"
  text1="Dès que le temps me le permet !" />

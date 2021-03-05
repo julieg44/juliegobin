@@ -11,7 +11,7 @@
       l'envie d'apprendre toujours et encore, 
       les opportunités d'expression qu'offrent le monde digital et un petit concours 
       de circonstance m'ont poussé à entreprendre une reconversion. <br/><br/> 
-      Me voici donc développeur Web (junior => merci de votre indulgence ;) prête à me lancer dans de tout nouveaux défis ! </p>
+      Me voici donc développeur Web ( junior => merci de votre indulgence ;) prête à me lancer dans de tout nouveaux défis ! </p>
     </div>
     </div>
   </section>
