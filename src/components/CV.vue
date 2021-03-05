@@ -165,7 +165,7 @@
                   <p><a href="mailto:xoxoxo@gmail.com">julie.gobin1106@gmail.com</a></p>
                   <p>06 07 82 42 12</p>
                   <p>Permis B, vehiculée</p>   
-                  <p><a href="http://www.juliegobin.fr">www.juliegobin.fr</a></p>
+                  <p><a href="https://juliegobin.netlify.app/">Mon site</a></p>
                   <p><a href="https://www.linkedin.com/in/julie-gobin-a6b1ab1a3/">LinkedIn</a></p>
                 </div>
             </div>
