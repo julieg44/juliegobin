@@ -37,6 +37,7 @@ export default {
     width: 100%;
     img{
         width: 45%;
+        max-height: 460px;
     }
 }
 
