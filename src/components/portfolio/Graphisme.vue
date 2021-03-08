@@ -2,7 +2,7 @@
     <div id="graphisme">
         <div @click="affPageIntro()"  id="align">
             <h3 >Graphisme</h3>
-            <p class="back" v-if="mget===true || moulin===true || pozzo===true || canal===true || irm===true || arc===true || logicmax===true || lepage===true || ohara===true || sdmo===true || sarre===true">   back</p>
+            <p class="back" v-if="mget===true || moulin===true || pozzo===true || canal===true || irm===true || arc===true || logicmax===true || lepape===true || ohara===true || sdmo===true || sarre===true">   back</p>
             <!-- <Next @One="affPageMget()" @Two="affPageIrm()" @Three="affPageMoulin()" @Four="affPageArc()" @Five="affPageSarre()" @Six="affPageOhara()" @Seven="affPageLepape()"  @Eight="affPageCanal()" @Nine="affPageSdmo()"  @Ten="affPagePozzo()" @Eleven="affPageLogicmax()"/> -->
         </div>
         <Intro v-if="intro===true" @One="affPageMget()" @Two="affPageIrm()" @Three="affPageMoulin()" @Four="affPageArc()" @Five="affPageSarre()" @Six="affPageOhara()" @Seven="affPageLepape()"  @Eight="affPageCanal()" @Nine="affPageSdmo()"  @Ten="affPagePozzo()" @Eleven="affPageLogicmax()"/>

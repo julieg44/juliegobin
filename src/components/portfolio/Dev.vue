@@ -76,6 +76,7 @@ export default {
       video{
         width: 100%;
         margin-right: 5%;
+        max-height: 500px;
       }
       .close-full{
         background-color: $secondColor;

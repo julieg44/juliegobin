@@ -48,7 +48,7 @@ export default {
         padding: 4%;
         position: absolute;
         background-color: $secondColor;
-        top: 440px;
+        top: 300px;
         width: 200%;
 
         h4 {

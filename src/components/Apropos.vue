@@ -59,7 +59,6 @@ export default {
     }
 
     #photoJu {
-      width: 35%;
       max-height: 460px;
       margin-right: 3%;
       animation-name: anim-photo;

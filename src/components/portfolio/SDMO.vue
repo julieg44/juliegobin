@@ -3,7 +3,7 @@
     <div class="client">
         <img class="court" src="../../assets/logos/sdmo.jpg"/>
     </div>
-    <div class="boulot">
+    <div class="boulot sdmo">
         <img src="../../assets/SDMO/SDMO-landing.jpg"/>
     </div>
 <Explicatif titre="SDMO - Agence Loom"
@@ -29,11 +29,13 @@ export default {
 
 @import "../../sass/main.scss";
 
-.boulot{
+.boulot.sdmo{
     // display: flex;
     // flex-direction: row;
     // justify-content: space-around;
-    width: 100%;
+    width: 50%;
+    margin: auto;
+    cursor: auto;
     img{
         width: 100%;
     }

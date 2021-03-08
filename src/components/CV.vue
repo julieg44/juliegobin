@@ -94,7 +94,7 @@
 
                     <div  class="dates">
                         <i class="far fa-dot-circle"></i>
-                        <p>Janv 2020<br />
+                        <p>Janv 2020 - <br/>Janv 2021<br />
                             Nantes</p>
                     </div>
                     <div class="contenu">

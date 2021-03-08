@@ -41,6 +41,7 @@ export default {
 
 
 .boulot{
+    cursor: pointer;
     width: 100%;
     img{
         width: 100%;

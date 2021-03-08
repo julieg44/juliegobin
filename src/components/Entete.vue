@@ -51,6 +51,7 @@ header {
 }
 
 h1 {
+  cursor: pointer;
     font-family: $serif;
     font-size: 5rem;
     font-weight: 400;
@@ -58,6 +59,9 @@ h1 {
     max-width: 980px;
     margin: auto;
     color: $firstColor; 
+    &:hover{
+      color: $secondColor;
+    }
     @include mobile{
       font-size: 2rem;
     }  
