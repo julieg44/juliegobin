@@ -1,16 +1,16 @@
 <template>
     <section class="theme">
     <div class="client">
-        <img class="long" src="../../assets/logos/lepape.png"/>
+        <img class="long" src="../../assets/logos/lepape.png" alt="logo Lepape"/>
     </div>
     <div class="boulot">
-        <img src="../../assets/catalogue/MES.png"/>
+        <img src="../../assets/catalogue/MES.png" alt="ecran Lepape"/>
     </div>
     <div class="client">
-        <img class="court" src="../../assets/logos/bbArt.jpg"/>
+        <img class="court" src="../../assets/logos/bbArt.jpg" alt="logo BabyArt"/>
     </div>
     <div class="boulot">
-        <img src="../../assets/catalogue/MES.jpg"/>
+        <img src="../../assets/catalogue/MES.jpg" alt="ecran BabyArt"/>
     </div>
 <Explicatif titre="Catalogues - Agence Loom"
  text1="Mise en page et déclinaisons selon DA établie"/>

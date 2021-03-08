@@ -1,7 +1,7 @@
 <template>
   <section id="apropos">
     <div class="flexApropos">
-      <img id="photoJu" src="../assets/julie.jpg"/>
+      <img id="photoJu" alt="photo Julie" src="../assets/julie.jpg"/>
       <div>
       <h3 id="titreJu">Hello !!!</h3>
       <p id="textJu">Je suis Julie, j'ai 38 ans et je vis à Nantes.<br/>

@@ -4,11 +4,11 @@
         <h3>Sarré conseils</h3>
     </div>    
     <div v-if="grand===false" @click="grand=true" class="boulot">
-        <img src="../../assets/sarre-mini.gif"/>
+        <img src="../../assets/sarre-mini.gif" alt="ecran sarre"/>
     </div>
 
     <div v-if="grand===true" class="full">
-        <img src="../../assets/sarre.gif"/>
+        <img src="../../assets/sarre.gif" alt="ecran sarre"/>
         <p @click="grand=false" class="close-full">close</p>
     </div>
     <Explicatif titre="Sarré conseil - Agence Loom"

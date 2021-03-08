@@ -63,7 +63,7 @@ h1 {
       color: $secondColor;
     }
     @include mobile{
-      font-size: 2rem;
+      font-size: 3rem;
     }  
 }
 

@@ -5,8 +5,8 @@
         <h3>Fête du Moulin</h3>
     </div>
     <div class="boulotTwo">
-        <img src="../../assets/moulin1.jpg"/>
-        <img src="../../assets/moulin.png"/>
+        <img src="../../assets/moulin1.jpg" alt="ecran moulin"/>
+        <img src="../../assets/moulin.png" alt="ecran moulin"/>
     </div>
 <Explicatif titre="Fête du Moulin - Projet personnel"
  text1="Création du visuel"/>

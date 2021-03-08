@@ -52,6 +52,9 @@ export default {
         font-weight: 400;
         font-size: 2rem;
         margin-bottom: 2%;
+        @include mobile {
+          font-size: 1.5rem;
+        }
     }
 }
 

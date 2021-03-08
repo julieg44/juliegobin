@@ -1,7 +1,7 @@
 <template>
 <div id="nav">
     <div id="burger" v-if="burger===true && mobiledevice===true " @click="openNav()">
-      <img src="../assets/burger.svg"/>
+      <img src="../assets/burger.svg" alt="menu burger"/>
       <div>
         <p>Développeur Web <span class="esperluette">&</span> Graphiste</p>
       </div>
@@ -123,10 +123,16 @@ export default {
         width: 85%;
         color: $thirdColor;
         line-height: 1.2rem;
+        @include mobile{
+          font-size: 1.2rem;
+        }
         .esperluette {
               font-size: 1.2rem;
               color: $secondColor;
               font-weight: 900;
+              @include mobile{
+          font-size: 1.4rem;
+        }
             }
         }
        

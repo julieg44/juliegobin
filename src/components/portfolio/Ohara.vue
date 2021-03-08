@@ -1,14 +1,14 @@
 <template>
     <section class="theme">
     <div class="client">
-        <img class="long" src="../../assets/logos/ohara.jpg"/>
+        <img class="long" src="../../assets/logos/ohara.jpg" alt="logo ohara"/>
     </div>
     <div v-if="grand===false" @click="grand=true" class="boulot">
-        <img src="../../assets/ohara-mini.jpg"/>
+        <img src="../../assets/ohara-mini.jpg" alt="ecran ohara"/>
     </div>
 
     <div v-if="grand===true" class="full">
-        <img src="../../assets/ohara.jpg"/>
+        <img src="../../assets/ohara.jpg" alt="ecran ohara"/>
         <p @click="grand=false" class="close-full">close</p>
     </div>
 <Explicatif titre="Ohara - Agence Loom"

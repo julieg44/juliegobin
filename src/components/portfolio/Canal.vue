@@ -1,19 +1,19 @@
 <template>
     <section class="theme">
     <div class="client">
-        <img class="long" src="../../assets/logos/canal.jpg"/>
+        <img class="long" src="../../assets/logos/canal.jpg" alt="logo Canal"/>
     </div>
 
     <div v-if="grand===false" @click="grand=true" class="boulot">
-        <img src="../../assets/canal/GIF_CANAL.gif"/>
+        <img src="../../assets/canal/GIF_CANAL.gif" alt="ecran Canal"/>
     </div>
 
     <div v-if="grand===true" class="full">
-        <img src="../../assets/canal/GIF_CANAL.gif"/>
+        <img src="../../assets/canal/GIF_CANAL.gif" alt="ecran Canal"/>
         <p @click="grand=false" class="close-full">close</p>
     </div>
     <div class="boulot">
-        <img src="../../assets/canal/landing-canal.jpg"/>
+        <img src="../../assets/canal/landing-canal.jpg" alt="ecran Canal"/>
     </div>
 
 

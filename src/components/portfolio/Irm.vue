@@ -1,15 +1,15 @@
 <template>
     <section class="theme">
     <div class="client">
-        <img class="long" src="../../assets/logos/logo-irm.jpg"/>
+        <img class="long" src="../../assets/logos/logo-irm.jpg" alt="logo IRM"/>
     </div>
 
     <div v-if="grand===false" @click="grand=true" class="boulot">
-        <img src="../../assets/IRM-mini.png"/>
+        <img src="../../assets/IRM-mini.png" alt="ecran IRM"/>
     </div>
 
     <div v-if="grand===true" class="full">
-        <img src="../../assets/IRM.png"/>
+        <img src="../../assets/IRM.png" alt="ecran IRM"/>
         <p @click="grand=false" class="close-full">close</p>
     </div>
 

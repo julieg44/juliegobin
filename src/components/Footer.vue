@@ -2,7 +2,7 @@
   <footer>
     <p>Développeur Web <span class="esperluette">&</span> Graphiste</p>
     <div class="filet"></div>
-    <div class="frise"><img src="../assets/frise.png"></div>
+    <div class="frise"><img src="../assets/frise.png" alt="illustration frise"></div>
   </footer>
 </template>
 

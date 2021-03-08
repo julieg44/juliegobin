@@ -10,9 +10,9 @@
             <h3>un peu de peinture… </h3>
         </div>
         <div class="boulot-toiles">
-            <div class="toile"><img src="../../assets/divers/toile1.jpg" /></div>
-            <div class="toile"><img src="../../assets/divers/toile3.jpg" /></div>
-            <div class="toile"><img src="../../assets/divers/toile2.jpg" /></div>
+            <div class="toile"><img src="../../assets/divers/toile1.jpg" alt="toile"/></div>
+            <div class="toile"><img src="../../assets/divers/toile3.jpg" alt="toile"/></div>
+            <div class="toile"><img src="../../assets/divers/toile2.jpg" alt="toile"/></div>
             <!-- <div class="toile"><img src="../../assets/divers/halloween.jpg" /></div> -->
         </div>
         <Explicatif titre="Pratique peinture et… passion tête de mort"

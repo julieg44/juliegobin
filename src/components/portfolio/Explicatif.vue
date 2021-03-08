@@ -79,6 +79,9 @@ export default {
         background-color: $firstColor;
         align-items: center;
         cursor: pointer;
+        @include mobile {
+            top: 0px;
+        }
 
         p {
             text-align: center;
@@ -86,6 +89,9 @@ export default {
             color:$secondColor;
             font-weight: 400;
             font-family: $serif;
+            @include mobile{
+                font-size: 1rem;
+            }
         }
     }
 

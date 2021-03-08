@@ -1,14 +1,14 @@
 <template>
 <section class="theme">
     <div class="client">
-        <img class="court" src="../../assets/logos/arc.jpg"/>
+        <img class="court" src="../../assets/logos/arc.jpg" alt="logo ARC"/>
     </div>
     <div v-if="grand===false" @click="grand=true" class="boulot">
-        <img src="../../assets/arc.jpg"/>
+        <img src="../../assets/arc.jpg" alt="ecran ARC"/>
     </div>
 
     <div v-if="grand===true" class="full">
-        <img src="../../assets/arc.jpg"/>
+        <img src="../../assets/arc.jpg" alt="ecran ARC"/>
         <p @click="grand=false" class="close-full">close</p>
     </div>
 <Explicatif titre="Groupe Arc - Agence Loom"

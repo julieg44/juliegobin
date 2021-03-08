@@ -34,7 +34,7 @@ $num-dot : 3;
 $anim-delay: $anim-dur / $num-dot;
 
 #soon{
-    width: 70%;
+    width: 100%;
     margin-top: 20%;
     p{
         width: 71%;

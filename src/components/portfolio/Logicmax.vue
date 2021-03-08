@@ -1,20 +1,20 @@
 <template>
     <section class="theme">
     <div class="client">
-        <img class="court" src="../../assets/logos/logicmax.png"/>
+        <img class="court" src="../../assets/logos/logicmax.png" alt="logo logicmax"/>
     </div>
     <div class="boulot">
-        <img src="../../assets/logicmax/logicmax.gif"/>
+        <img src="../../assets/logicmax/logicmax.gif" alt="ecran logicmax"/>
     </div>
     <div class="boulot">
-        <img src="../../assets/logicmax/blog_cedric.gif"/>
+        <img src="../../assets/logicmax/blog_cedric.gif" alt="ecran logicmax"/>
     </div>
     <div class="boulot flex">
     <div class="bann">
-        <img src="../../assets/logicmax/bann.gif"/>
+        <img src="../../assets/logicmax/bann.gif" alt="ecran logicmax"/>
     </div>
     <div class="mail">
-        <img src="../../assets/logicmax/mail.jpg"/>
+        <img src="../../assets/logicmax/mail.jpg" alt="ecran logicmax"/>
     </div>
     </div>
 <Explicatif titre="logicmax - Agence Loom"

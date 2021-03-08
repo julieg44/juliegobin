@@ -1,19 +1,19 @@
 <template>
   <section class="competences">
     <div id="quadrillage-logos"> 
-        <div class="logos logoscarre"><img src="../assets/logiciels/html.png"/></div>
-        <div class="logos logoscarre"><img src="../assets/logiciels/css-3.png"/></div>
-        <div class="logos logoscarre"><img src="../assets/logiciels/sass.png"/></div>
-        <div class="logos logoscarre"><img src="../assets/logiciels/js.jpg"/></div>
-        <div class="logos logoslong"><img src="../assets/logiciels/vue.png"/></div>
-        <div class="logos logoslong"><img src="../assets/logiciels/node.png"/></div>
-        <div class="logos logoslong"><img src="../assets/logiciels/sequelize.png"/></div>
-        <div class="logos logoslong"><img src="../assets/logiciels/express.png"/></div>
-        <div class="logos logoslong"><img src="../assets/logiciels/mongodb.jpg"/></div>
-        <div class="logos logoslong"><img src="../assets/logiciels/MySQL.png"/></div>
-        <div class="logos logoscarre"><img src="../assets/logiciels/ID.png"/></div>
-        <div class="logos logoscarre"><img src="../assets/logiciels/AI.png"/></div>
-        <div class="logos logoscarre"><img src="../assets/logiciels/PS.png"/></div>
+        <div class="logos logoscarre"><img src="../assets/logiciels/html.png" alt="logo HTML"/></div>
+        <div class="logos logoscarre"><img src="../assets/logiciels/css-3.png" alt="logo CSS"/></div>
+        <div class="logos logoscarre"><img src="../assets/logiciels/sass.png" alt="logo SASS"/></div>
+        <div class="logos logoscarre"><img src="../assets/logiciels/js.jpg" alt="logo Javascript"/></div>
+        <div class="logos logoslong"><img src="../assets/logiciels/vue.png" alt="logo vue.js"/></div>
+        <div class="logos logoslong"><img src="../assets/logiciels/node.png" alt="logo Node"/></div>
+        <div class="logos logoslong"><img src="../assets/logiciels/sequelize.png" alt="logo sequelize"/></div>
+        <div class="logos logoslong"><img src="../assets/logiciels/express.png" alt="logo express.js"/></div>
+        <div class="logos logoslong"><img src="../assets/logiciels/mongodb.jpg" alt="logo mongoDB"/></div>
+        <div class="logos logoslong"><img src="../assets/logiciels/MySQL.png" alt="logo MySql"/></div>
+        <div class="logos logoscarre"><img src="../assets/logiciels/ID.png" alt="logo InDesign"/></div>
+        <div class="logos logoscarre"><img src="../assets/logiciels/AI.png" alt="logo Illustrator"/></div>
+        <div class="logos logoscarre"><img src="../assets/logiciels/PS.png" alt="logo Photoshop"/></div>
     </div>
     <!-- <div id="mots"> 
         <img src="../assets/mots.png"/>
@@ -62,6 +62,10 @@ export default {
     justify-content: center;
     border: 1px solid $grey;
     margin: 2px;
+    // @include mobile{
+    //   width: 90px;
+    //   height: 90px;
+    // }
 
     
     &.logoscarre{

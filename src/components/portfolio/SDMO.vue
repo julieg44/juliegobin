@@ -1,10 +1,10 @@
 <template>
     <section class="theme">
     <div class="client">
-        <img class="court" src="../../assets/logos/sdmo.jpg"/>
+        <img class="court" src="../../assets/logos/sdmo.jpg" alt="logo sdmo"/>
     </div>
     <div class="boulot sdmo">
-        <img src="../../assets/SDMO/SDMO-landing.jpg"/>
+        <img src="../../assets/SDMO/SDMO-landing.jpg" alt="ecran sdmo"/>
     </div>
 <Explicatif titre="SDMO - Agence Loom"
  text1="Création et intégration de landing page"/>

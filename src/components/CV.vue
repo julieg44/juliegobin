@@ -11,7 +11,7 @@
                 </div>
                 <div id="identite">
                     <h1 class="nomCv"><span id="julie">Julie</span> Gobin</h1>
-                    <h2>Développeur <span class="esperluette">&</span> graphiste</h2>
+                    <h2>Développeur Web <span class="esperluette">&</span> graphiste</h2>
                     <div id="filet"></div>
                 </div>
                 <div id="layus">
@@ -619,9 +619,9 @@ article{
 
 /*responsive mobiles*/
 
-@media all and (max-width : 570px){
+@include mobile{
 
-    #wrap{
+    #cv{
         display: block;
     }
 
@@ -633,6 +633,15 @@ article{
         order: 1;
         width: 100%;
         padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    #layus{
+        display: none;
+    }
+
+    #filet{
+        display: none;
     }
 
 
@@ -640,7 +649,7 @@ article{
         
         padding-top: 5%;
         padding-bottom: 5%;
-        margin: 0%;
+        // margin: 0%;
         display: flex;
         background-color: $secondColor;
     }
@@ -680,6 +689,17 @@ article{
         margin-bottom: 0;
         margin-top: 3%;
     }
+    .contenuCv header h2 {
+        font-family: $serif;
+        font-size: 1.2rem;
+        font-weight: 100;
+        margin-bottom: 0;
+        margin-top: 3%;
+        .esperluette{
+            color: #fff;
+            font-size: 1.4rem;
+        }
+    }
 
     article{
         padding-left: 3%;
@@ -717,7 +737,7 @@ article{
     }
 
     .dates p{
-        color: $secondColor;
+        color: $thirdColor;
     }
 
     
@@ -742,6 +762,10 @@ article{
 
     #loisirs{
         position: relative;
+    }
+
+    aside h1.titreLogiciels{
+        height: 35px;
     }
 
 

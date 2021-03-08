@@ -1,7 +1,7 @@
 <template>
 <div>
-<Soon v-if="soon===true"/>
-  <div v-if="soon===false" class="home">
+<!-- <Soon v-if="soon===true"/> -->
+  <div class="home">
     <Entete  @affichageHome="showHome()"/>
     <div class="corps">
     <Nav 
@@ -43,7 +43,7 @@
 
 <script>
 // @ is an alias to /src
-import Soon from '@/components/Soon.vue';
+// import Soon from '@/components/Soon.vue';
 
 import Entete from '@/components/Entete.vue';
 import Nav from '@/components/Nav.vue';
@@ -60,13 +60,13 @@ import CV from '../components/CV.vue';
 export default {
   name: 'Home',
   components: {
-    Soon, Entete, Nav, Footer, Portfolio, Contact, Apropos, Competences, CV
+     Entete, Nav, Footer, Portfolio, Contact, Apropos, Competences, CV
     
   },
 
   data(){
     return {
-      soon: false,
+      // soon: false,
       footer:true,
       mobiledevice:false,
       burger:true,
@@ -87,7 +87,7 @@ export default {
       return this.navopen=true, this.burger=false, this.dev=false, this.portfolio=false, this.prez=false, this.apropos=false, this.contact=false, this.competences=false, this.portfolioDefault=false, this.cv=false
     },
     hideNav(){
-      return this.navopen=false, this.burger=true, this.dev=false, this.portfolio=false, this.prez=false, this.apropos=false, this.contact=false, this.competences=false, this.portfolioDefault=false, this.cv=false
+      return this.navopen=false, this.burger=true, this.dev=false, this.portfolio=false, this.prez=false, this.apropos=true, this.contact=false, this.competences=false, this.portfolioDefault=false, this.cv=false
     },
 
     showHome(){
@@ -97,13 +97,13 @@ export default {
       return this.portfolio=true, this.portfolioDefault=true, this.dev=false, this.graphisme=false, this.divers=false, this.prez=false, this.apropos=false, this.contact=false, this.competences=false, this.navopen=true, this.burger=false, this.cv=false
     },
     showDev(){
-      return this.dev=true, this.graphisme=false, this.divers=false, this.portfolioDefault=false
+      return this.dev=true, this.graphisme=false, this.divers=false, this.portfolioDefault=false, this.navopen=false, this.burger=true
     },
     showGraphisme(){
-      return this.dev=false, this.graphisme=true, this.divers=false, this.portfolioDefault=false
+      return this.dev=false, this.graphisme=true, this.divers=false, this.portfolioDefault=false, this.navopen=false, this.burger=true
     },
     showAutre(){
-      return this.dev=false, this.graphisme=false, this.divers=true, this.portfolioDefault=false
+      return this.dev=false, this.graphisme=false, this.divers=true, this.portfolioDefault=false, this.navopen=false, this.burger=true
     },
     showCV(){
       return this.cv=true, this.dev=false,this.portfolio=false, this.prez=false, this.apropos=false, this.contact=false, this.competences=false, this.portfolioDefault=false, this.navopen=false, this.burger=true
@@ -116,25 +116,25 @@ export default {
     },
   },
 
-  created(){
-    console.log(window.innerWidth)
-    if (window.innerWidth < 600){
-      console.log("coucou")
-      return this.soon=true, this.mobiledevice=false, this.burger=false, this.apropos=false
-    } else {
-      console.log("raté")
-    }
-  }
-
-  //   created(){
+  // created(){
   //   console.log(window.innerWidth)
   //   if (window.innerWidth < 600){
   //     console.log("coucou")
-  //     return this.mobiledevice=true
+  //     return this.soon=true, this.mobiledevice=false, this.burger=false, this.apropos=false
   //   } else {
   //     console.log("raté")
   //   }
   // }
+
+    created(){
+    console.log(window.innerWidth)
+    if (window.innerWidth < 600){
+      console.log("coucou")
+      return this.mobiledevice=true
+    } else {
+      console.log("raté")
+    }
+  }
 
   
 

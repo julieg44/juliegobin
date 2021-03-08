@@ -1,13 +1,13 @@
 <template>
     <section class="theme">
     <div class="client">
-        <img class="court" src="../../assets/logos/pozzo.png"/>
+        <img class="court" src="../../assets/logos/pozzo.png" alt="logo pozzo"/>
     </div>
     <div class="boulot">
-        <img src="../../assets/pozzo/pozzo.gif"/>
+        <img src="../../assets/pozzo/pozzo.gif" alt="ecran pozzo"/>
     </div>
     <div class="boulot">
-        <img src="../../assets/pozzo/POZZO_asset_5.jpg"/>
+        <img src="../../assets/pozzo/POZZO_asset_5.jpg" alt="ecran pozzo"/>
     </div>
 <Explicatif titre="Agence Pozzo immobilier - Agence Loom"
     text1="Déclinaison de maquettes pour le site institutionnel"

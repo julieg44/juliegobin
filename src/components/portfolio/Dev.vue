@@ -5,7 +5,7 @@
             <!-- <NextDev @One="affPageMget()" @Two="affPageIrm()" @Three="affPageMoulin()" /> -->
         </div>    
             <div v-if="grand===false" @click="grand=true" class="boulot">
-        <img src="../../assets/PF-dev.png"/>
+        <img src="../../assets/PF-dev.png" alt="ecran Groupomania"/>
     </div>
 
     <div v-if="grand===true" class="fulldev">
