@@ -113,6 +113,7 @@ export default {
       animation: none;
       align-items: flex-start;
       width: 100%;
+      height: 45px;
         img{
           width: 13%;
           margin-right: 2%;
