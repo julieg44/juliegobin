@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="icon-explicatif" @mouseover="explicatif=true" @mouseleave="explicatif=false"><p>Ce que j'ai fait ?</p>
+        <div class="icon-explicatif" @click="explicatif=true" @mouseleave="explicatif=false"><p>Ce que j'ai fait ?</p>
         </div>
         <div class="text-explicatif"  v-if="explicatif===true">
             <h4><slot>{{titre}}</slot></h4>
@@ -50,6 +50,9 @@ export default {
         background-color: $secondColor;
         top: 300px;
         width: 200%;
+        @include mobile {
+            width: 100%;
+        }
 
         h4 {
             font-family: $serif;
@@ -57,6 +60,9 @@ export default {
             font-size: 1.2rem;
             color: $firstColor;
             margin-bottom: 2%;
+            @include mobile{
+                font-size: 1rem;
+            }
         }
 
         .listeExplication {
@@ -64,6 +70,9 @@ export default {
             font-weight: 200;
             font-size: 1rem;
             color: $firstColor;
+            @include mobile{
+                font-size: 0.8rem;
+            }
         }
     }
 

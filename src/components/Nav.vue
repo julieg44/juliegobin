@@ -109,6 +109,7 @@ export default {
     display: none;
     @include mobile{
       display: flex;
+      flex-direction: row;
       animation: none;
       width: 100%;
         img{
