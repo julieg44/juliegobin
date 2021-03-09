@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="icon-explicatif" @click="explicatif=true" @mouseleave="explicatif=false"><p>Ce que j'ai fait ?</p>
+        <div class="icon-explicatif" @mouseover="explicatif=true" @mouseleave="explicatif=false"><p>Ce que j'ai fait ?</p>
         </div>
         <div class="text-explicatif"  v-if="explicatif===true">
             <h4><slot>{{titre}}</slot></h4>
