@@ -111,10 +111,12 @@ export default {
       display: flex;
       flex-direction: row;
       animation: none;
+      align-items: flex-start;
       width: 100%;
         img{
           width: 13%;
           margin-right: 2%;
+          margin-top: 1%;
         }
         p {
         font-family: $serif;
