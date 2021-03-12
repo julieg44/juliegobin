@@ -162,8 +162,8 @@
             <div id="contact">
                 <h1>Contact</h1>
                 <div class="contenuContact">
-                  <p><a href="mailto:xoxoxo@gmail.com">julie.gobin1106@gmail.com</a></p>
-                  <p>06 07 82 42 12</p>
+                  <!-- <p><a href="mailto:xoxoxo@gmail.com">julie.gobin1106@gmail.com</a></p>
+                  <p>06 07 82 42 12</p> -->
                   <p>Permis B, vehiculée</p>   
                   <p><a href="https://juliegobin.netlify.app/">Mon site</a></p>
                   <p><a href="https://www.linkedin.com/in/julie-gobin-a6b1ab1a3/">LinkedIn</a></p>
@@ -301,7 +301,7 @@ aside{
     width: 90%;
     background-color: #fff;
     margin: auto;
-    height: 130px;
+    height: 85px;
     box-shadow: 3px 1px 10px $thirdColor;
     padding: 2%
     }
