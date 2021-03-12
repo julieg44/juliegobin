@@ -141,7 +141,7 @@
                     <div class="collegue">
                         <h5>Julien Lepriol - Colin</h5>
                         <p>agence I5</p>
-                        <p><a href="mailto:julien@i5.agency">julien@i5.agency</a></p>
+                        <!-- <p><a href="mailto:julien@i5.agency">julien@i5.agency</a></p> -->
                     </div>
 
                     <!-- <div class="collegue">
