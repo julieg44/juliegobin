@@ -6,7 +6,7 @@
         <a href="mailto:julie.gobin1106@gmail.com">Email : julie.gobin1106@gmail.com</a><br/> -->
         <img src="../assets/linkedIn.png" alt="linkedIn" id="linkedIn"/><a href="https://www.linkedin.com/in/julie-gobin-a6b1ab1a3/">LinkedIn</a>
     </div>
-      <form id="formulaire" name="contact" method="POST" data-netlify="true"
+      <form action='/thanks' id="formulaire" name="contact" method="POST" data-netlify="true"
     data-netlify-honeypot="bot-field"
     >
         <input type="hidden" name="form-name" value="contact">
