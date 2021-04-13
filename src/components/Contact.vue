@@ -6,7 +6,9 @@
         <a href="mailto:julie.gobin1106@gmail.com">Email : julie.gobin1106@gmail.com</a><br/> -->
         <img src="../assets/linkedIn.png" alt="linkedIn" id="linkedIn"/><a href="https://www.linkedin.com/in/julie-gobin-a6b1ab1a3/">LinkedIn</a>
     </div>
-      <form id="formulaire" name="contact" method="POST" data-netlify="true">
+      <form id="formulaire" name="contact" method="POST" data-netlify="true"
+    data-netlify-honeypot="bot-field"
+    >
         <input type="hidden" name="form-name" value="contact">
 
         <p class="flex-form">
@@ -32,6 +34,17 @@ export default {
   name: 'Contact',
   components: {
     
+  },
+    methods: {
+    updatePanelist (ev) {
+      this.currentPanelist = ev.target.value
+    }
+  },
+  data () {
+    return {
+      panelists: ['Evan You', 'Chris Fritz'],
+      currentPanelist: 'Evan You'
+    }
   }
 }
 </script>
