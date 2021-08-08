@@ -120,7 +120,7 @@ computed:{
   .back{
     margin-left: 3%;
     border: 1px solid $thirdColor;
-    // background-color: $thirdColor;
+    background-color: $secondColor;
     color: $thirdColor;
     padding: 0 2% 2% 2%;
     height: 25px;
@@ -137,14 +137,16 @@ computed:{
         margin-bottom: 5%;
         border-bottom: 1px solid black;
         h3 {
-            width: 30%;
+            // width: 30%;
             height: 35px;
             font-size: 1rem;
             background-color: #000;
-            color: #ecd1d6;
+            color: $secondColor;
             text-align: center;
             margin-right: 5%;
-            padding-top: 1%;
+            padding: 1% 2% 1% 2%;
+            font-family: $serif;
+
         }
         .court{
             margin-bottom: 3%;

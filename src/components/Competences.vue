@@ -19,6 +19,7 @@
         <img src="../assets/mots.png"/>
     </div> -->
     <div id="mots"> 
+        <h4>Soft skills</h4>
         <p>Au delà de mes connaissances techniques ci-dessus, je suis <span class="qualite">curieuse</span> et <span class="qualite">créative</span> de nature, je m'<span class="qualite">adapte facilement</span> aux situations.
           Je prends le temps d’observer afin d’<span class="qualite">analyser au mieux</span> les problématiques et leur trouver la <span class="qualite">solution la plus efficace</span>. 
           Enfin je me plais à <span class="qualite">travailler en équipe</span> et mets toute ma <span class="qualite">bienveillance</span> à sa disposition.
@@ -49,10 +50,10 @@ export default {
   flex-wrap: wrap;
   width: 100%;
   margin: auto;
-  margin-bottom: 10%;
+  margin-bottom: 5%;
   @include mobile{
     width: 100%;
-    margin: 0;
+    margin-bottom: 3%;
     }
   .logos {
     width: 100px;
@@ -80,12 +81,20 @@ export default {
   }
 }
 #mots{
-  width: 80%;
+  width: 100%;
+  background-color: $blanc;
+  box-shadow: 3px 1px 10px $thirdColor;
+  padding: 2% 3% 3% 3%;
   @include mobile{
     width: 100%;
   }
   p{
     text-align: left;
+  }
+  h4{
+    font-family: $handwritting;
+    text-align: center;
+    font-size: 2rem;
   }
   .qualite{
     background-color: black;

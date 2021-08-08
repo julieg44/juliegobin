@@ -144,7 +144,12 @@ export default {
 <style lang="scss">
 @import "../sass/main.scss";
 .home{
+  background-image: url('../assets/fond.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding-bottom:20px;
   @include mobile{
+    background-image: none;
     width: 90%;
     margin: auto;
   }

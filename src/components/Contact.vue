@@ -7,7 +7,7 @@
         <img src="../assets/linkedIn.png" alt="linkedIn" id="linkedIn"/><a href="https://www.linkedin.com/in/julie-gobin-a6b1ab1a3/">LinkedIn</a>
     </div>
       <form action='/thanks' id="formulaire" name="contact" method="POST" data-netlify="true"
-    data-netlify-honeypot="bot-field"
+    data-netlify-honeypot="bot-field" 
     >
         <input type="hidden" name="form-name" value="contact">
 
@@ -58,6 +58,7 @@ export default {
     h3{
     font-size: 1.5rem;
     text-align: center; 
+    font-family: $handwritting;
     }
     #linkedIn{
       width: 4%;

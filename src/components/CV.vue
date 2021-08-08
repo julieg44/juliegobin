@@ -15,7 +15,7 @@
                     <div id="filet"></div>
                 </div>
                 <div id="layus">
-                  <p>Comme je ne me suis pas trompée en débutant ma vie professionnelle par le graphisme, j'ai décidé de la poursuivre par du développement Web en entreprennant une formation dans ce domaine, sûre d'y trouver mon épanouissement. Imaginer des projets et leur donner vie, quoi de mieux en somme ?</p>
+                  <p>Comme je ne me suis pas trompée en débutant ma vie professionnelle par le graphisme, j'ai décidé de la poursuivre par du développement Web en entreprennant une formation dans ce domaine, sûre d'y trouver mon épanouissement.</p>
                 </div>
             </header>
 
@@ -236,6 +236,7 @@ export default {
     display: flex;
     // border: #5c6266 solid 1px;
     box-shadow: 3px 1px 10px $thirdColor;
+    background-color: #fff;
     p{
       font-family: $serif;
     }
@@ -269,7 +270,8 @@ export default {
 
 aside{
     width: 30%;
-    background: linear-gradient(to top, $quatreColor, 20%, $secondColor);
+    // background: linear-gradient(to top, $quatreColor, 20%, $secondColor);
+    background: $secondColor;
     position: relative;
     order: 1;
 
@@ -344,13 +346,13 @@ a{
 
 
 #loisirs .fas{
-    color: #fff;
+    color: #000;
     font-size: 1.3em;
 }
 
 .icon{
     display: inline-block;
-    border: #fff solid 1px;
+    border: #000 solid 1px;
     border-radius: 30px;
     width: 35px;
     height: 35px;

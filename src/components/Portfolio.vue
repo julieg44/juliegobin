@@ -40,20 +40,24 @@ export default {
 #align{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
     margin-bottom: 5%;
+    @include mobile{
+      justify-content: flex-start;
+    }
 }
 
 .portfolio {
   position: relative;
     h3 {
         text-align: center;
-        font-family: $serif;
+        font-family: $handwritting;
         font-weight: 400;
         font-size: 2rem;
         margin-bottom: 2%;
         @include mobile {
-          font-size: 1.5rem;
+          font-size: 1.3rem;
         }
     }
 }

@@ -47,7 +47,7 @@ export default {
     .text-explicatif {
         padding: 4%;
         position: absolute;
-        background-color: $secondColor;
+        background-color: $thirdColor;
         top: 300px;
         width: 200%;
         @include mobile {
@@ -58,7 +58,7 @@ export default {
             font-family: $serif;
             font-weight: 700;
             font-size: 1.2rem;
-            color: $firstColor;
+            color: $secondColor;
             margin-bottom: 2%;
             @include mobile{
                 font-size: 1rem;
@@ -69,7 +69,7 @@ export default {
             font-family: $serif;
             font-weight: 200;
             font-size: 1rem;
-            color: $firstColor;
+            color: $blanc;
             @include mobile{
                 font-size: 0.8rem;
             }

@@ -72,7 +72,7 @@ footer {
             text-align: left;
             max-width: 980px;
             margin: auto;
-            color: $secondColor;
+            color: $thirdColor;
             @include mobile{
               font-size: 2rem;
             } 
