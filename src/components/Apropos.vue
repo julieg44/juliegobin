@@ -3,7 +3,7 @@
     <div class="flexApropos">
       <img id="photoJu" alt="photo Julie" src="../assets/julie.jpg"/>
       <div>
-      <h3 id="titreJu">Hello !!!</h3>
+      <h3 id="titreJu">Hello !</h3>
       <p id="textJu">Bienvenue sur mon portfolio codé de mes petits doigts ( je rougis… )<br/>
       Pourquoi ce site ??
       J'ai exercé pendant de nombreuses années, dans diverses agences, le métier de graphiste que j'affectionne beaucoup. <br/>
